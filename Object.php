@@ -10,7 +10,7 @@ class carro{
    }
 
    public function message(){
-    return "este carro é da marca ".$this->marca." e tem a cor ".$this->cor;
+    return "este carro é de marca ".$this->marca." e tem a cor ".$this->cor;
    }
 
 }
