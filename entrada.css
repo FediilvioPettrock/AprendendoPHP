@@ -1,0 +1,13 @@
+.entradas{
+ position:absolute;
+ display:flex;
+ flex-direction:column;
+
+}
+
+.respostas{
+position: absolute; 
+top: 20%;
+display:flex;
+ flex-direction:column;
+}
