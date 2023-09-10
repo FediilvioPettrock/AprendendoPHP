@@ -7,16 +7,12 @@
 </form>
 
 <?php
-
-#Se o metodo de envio for post
 if($_SERVER['REQUEST_METHOD']=="POST"){
-  if(isset($_REQUEST['fname'])){
-    $name=$_REQUEST['fname'];
-    if(empty($name))
-    echo "campo não preenchido";
+     $nome=isset($_POST['fname'])?$_POST['fname']:"Variavel não encontrada";
+    if(empty($nome))
+    echo "Campo vazio";
     else
-    echo $name;
-  }
+    echo $nome;
 }
 ?>
 
