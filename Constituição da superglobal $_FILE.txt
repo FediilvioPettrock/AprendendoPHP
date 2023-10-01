@@ -1,0 +1,8 @@
+array(1) { 
+
+	["fileToUpload"]=> array(5) { 
+	   ["name"]=> string(8) "cp9.jpeg" 
+	   ["type"]=> string(10) "image/jpeg" 
+	   ["tmp_name"]=> string(24) "C:\xampp\tmp\phpCE0F.tmp" ["error"]=> int(0) ["size"]=> int(8665) 
+	 			     } 
+	  } 

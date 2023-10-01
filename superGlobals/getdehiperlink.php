@@ -3,7 +3,7 @@
 
 <a href="http://localhost/exercicioPHP/superGlobals/getdehiperlink.php?name=Fedilvio&idade=25">
     enviar pela URL
-</a>
+</a> 
 
 <?php
 if(isset($_GET['name']))
